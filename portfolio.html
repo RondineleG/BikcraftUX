@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bikcraft - Portfolio</title>
+    <meta name="description" content="Compre a sua biclicleta personalizada na Bikcraft. Possuímos modelos de Passeio, Retrô e Esporte.">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bikcraft - Bicicletas Personalizadas" />
+    <meta property="og:description" content="Conheça o nosso portfólio." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/libs/modernizr.custom.45655.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/bikcraft.png" alt="bikcraft logo">
+            </a>
+            <nav class="header_menu grid-12">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="portfolio.html" class="menu_ativo">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="introducao_interna interna_portfolio">
+        <div class="container">
+            <h1>Portfólio</h1>
+            <p>Conheça os projetos que amamos mostrar</p>
+        </div>
+    </section>
+
+    <section class="container animar-interno">
+        <ul class="rslides">
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo".</p>
+                    <cite>Barbara Moss</cite>
+                </blockquote>
+            </li>
+
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Nada melhor do que dar um rolê com a minha Bikcraft na orla. Essa é a minha companheira mais fiel, nunca me traiu e está sempre a minha disposição".</p>
+                    <cite>Bruna</cite>
+                </blockquote>
+            </li>
+
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental. Nunca vida nada igual”.</p>
+                    <cite>Bernardo</cite>
+                </blockquote>
+            </li>
+
+        </ul>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <ul class="portfolio_lista rslides_portfolio">
+                <li>
+                    <div class="grid-8">
+                        <img src="img/portfolio/retro.jpg" alt="bicicleta retro bikcraft">
+                    </div>
+                    <div class="grid-8">
+                        <img src="img/portfolio/passeio.jpg" alt="bicicleta passeio bikcraft">
+                    </div>
+                    <div class="grid-16">
+                        <img src="img/portfolio/esporte.jpg" alt="bicicleta esporte bikcraft">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="grid-8">
+                        <img src="img/portfolio/passeio.jpg" alt="bicicleta passeio bikcraft">
+                    </div>
+                    <div class="grid-8">
+                        <img src="img/portfolio/retro.jpg" alt="bicicleta retro bikcraft">
+                    </div>
+                    <div class="grid-16">
+                        <img src="img/portfolio/esporte.jpg" alt="bicicleta esporte bikcraft">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <div class="quebra">
+        <div class="container">
+            <blockquote>
+                <p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana".</p>
+                <cite>WILLIAM MORRIS</cite>
+            </blockquote>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="grid-8 footer_historia">
+                    <h3>Nossa história</h3>
+                    <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
+                </div>
+
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>+55 (47) 99999-9999</li>
+                        <li>contato@bikcraft.com</li>
+                        <li>Rua Maria Lopez - Centro</li>
+                        <li>Navegantes - SC - Brasil</li>
+                    </ul>
+                </div>
+
+                <div class="grid-4 footer_redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank"><img src="img/redes-sociais/facebook.png" alt="icone facebook"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><img src="img/redes-sociais/instagram.png" alt="icone instagram"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><img src="img/redes-sociais/twitter.png" alt="icone twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copy">
+        <div class="container">
+            <p class="grid-16">Bikcraft 2019</p>
+        </div>
+    </div>
+
+    <!-- Começo JavaScript -->
+    <script src="js/libs/jquery-1.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(function() {
+            $(".rslides").responsiveSlides();
+        });
+    </script>
+    <!-- Fim JavaScript -->
+
+</body>
+
+</html>
